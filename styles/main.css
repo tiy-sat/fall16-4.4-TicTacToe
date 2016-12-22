@@ -1,0 +1,19 @@
+.square{
+  background-color: DarkSeaGreen;
+  height: 100px;
+  width: 100px;
+}
+
+.square:nth-child(2){
+  border-left: 4px solid white;
+  border-right: 4px solid white;
+}
+
+.table{
+  border-collapse: collapse;
+}
+
+.table__row:nth-child(2){
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+}
