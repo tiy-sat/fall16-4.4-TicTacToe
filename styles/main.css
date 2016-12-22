@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  font-family: Helvetica;
+}
+
 .square{
   background-color: DarkSeaGreen;
   height: 100px;
@@ -9,8 +14,28 @@
   border-right: 4px solid white;
 }
 
+.square--x::before,
+.square--o::before {
+  font-size: 100px;
+  line-height: 100px;
+  font-weight: lighter;
+  width: 100px;
+  color: red;
+  display: block;
+  text-align: center;
+}
+
+.square--o::before {
+  content: "O";
+}
+
+.square--x::before {
+  content: "X";
+}
+
 .table{
   border-collapse: collapse;
+  margin: 0 auto;
 }
 
 .table__row:nth-child(2){

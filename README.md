@@ -11,8 +11,8 @@ Style Initial State
 - [x] Second table data inside of every row needs left and right border: 4px white
 
 Style Playing State
-- [ ] Style "X move" in square
-- [ ] Style "O move" in square
+- [x] Style "X move" in square
+- [x] Style "O move" in square
 
 Style Finished State
 - [ ] Style winning moves: larger move
