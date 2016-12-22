@@ -17,3 +17,15 @@ Style Playing State
 Style Finished State
 - [x] Style winning moves: larger font, red
 - [x] Style losing moves: opacity: 50%;
+
+Clicking on move square
+- [x] Require jQuery
+- [x] Wait for dom to be ready
+- [x] Create the body element reference
+- [x] Find the move squares with JS
+- [x] Add listener for click
+- [ ] Redefine scope to meaningful variable ($clickedElement) singular and wrap in jquery
+- [x] Track number of clicks
+- [x] Incremented number of clicks by one
+- [ ] First click adds x class
+- [ ] Alternate class x/o between clicks
